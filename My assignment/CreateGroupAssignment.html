@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Assignment 1</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <header class="top_bar">
+        <div class="top_bar_left">
+            <img src="cloud.png" alt="no image">
+            <p class="Cloud">Cloud</p>
+            <p>&nbsp;</p>
+            <p class="Access">Access</p>
+        </div>
+        <div class="top_bar_right">
+            <img src="bell.png" alt="no image">
+            <div class="top_bar_right_text">
+                <p class="Name">John Smith</p>
+                <p class="Company">T-Mobile USA</p>
+            </div>
+            <img src="pfp.jpg" alt="no image">
+        </div>
+    </header>
+
+
+    <div class="side_bar_full">
+        <div class="side_bar_top">
+            <p class="headings">YOUR GROUPS/PACKS</p>
+            <p style="color: #b8b8b8; margin:20px 0 40px 0;">You don't have access to anything yet</p>
+
+            <div class="Line-11"></div>
+
+            <p class="headings" style="margin:40px 0 30px 0; display: block;">YOUR REQUESTS</p>
+            <table class="your_requests">
+                <tr>
+                    <th><span class="req_type">Pending</span></th>
+                    <td><span class="req_num" style="color:white;">6</span></td>
+                </tr>
+                <tr>
+                    <th><span class="req_type">Approved</span></th>
+                    <td><span class="req_num" style="color:white;">0</span></td>
+                </tr>
+                <tr>
+                    <th><span class="req_type">Rejected</span></th>
+                    <td><span class="req_num" style="color:white;">0</span></td>
+                </tr>
+            </table>
+
+            <div class="Line-11"></div>
+
+            <p class="headings" style="margin:40px 0 30px 0; display: block;">YOUR APPROVALS</p>
+            <p style="color: #b8b8b8; margin:20px 0 40px 0;">You don't have any approvals yet</p>
+
+            <div class="Line-11"></div>
+        </div>
+
+
+        <div class="side_bottom">
+            <div class="side_bottom_content">
+                <img src="group_icon.svg" alt="no image">
+                <p>ALL GROUPS</p>
+            </div>
+        </div>
+        <div class="side_bottom">
+            <div class="side_bottom_content">
+                <img src="icon_pack.svg" alt="no image">
+                <p>ALL PACKS</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-full">
+            <p class="headings">ALL GROUP:</p>
+            <hr style="color: #f2f4f8; margin: 20px 0;">
+            <p class="headings" style="color: grey; font-weight:600; text-transform: uppercase;">Recommended Groups:</p>
+            <span style="float: right;">
+                <img src="prev.svg" alt="no image">
+                <img src="next.svg" alt="no image">
+            </span>
+            <div class="recommended">
+                <div class="recommended-group">
+                    <img src="group_icon_xl.svg" alt="img!">
+                    <div class="group-box">
+                        <span class="ovrflw">ABC Security Groups</span>
+                        <span class="ovrflw" style="font-size: 0.7rem; color: 4a4a4a; opacity: 50%;">John Smith</span>
+                    </div>
+                    <img src="addpack.svg" alt="img!">
+                </div>
+                <div class="recommended-group">
+                    <img src="group_icon_xl.svg" alt="img!">
+                    <div class="group-box">
+                        <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                        <span class="ovrflw" style="font-size: 0.7rem; color: 4a4a4a; opacity: 50%;">John Smith,
+                            Lisandro Matos</span>
+                    </div>
+                    <img src="addpack.svg" alt="img!">
+                </div>
+                <div class="recommended-group">
+                    <img src="group_icon_xl.svg" alt="img!">
+                    <div class="group-box">
+                        <span class="ovrflw">ABC Security Groups</span>
+                        <span class="ovrflw" style="font-size: 0.7rem; color: 4a4a4a; opacity: 50%;">John Smith, Jenny
+                            Chloke</span>
+                    </div>
+                    <img src="addpack.svg" alt="img!">
+                </div>
+                <div class="recommended-group">
+                    <img src="group_icon_xl.svg" alt="img!">
+                    <div class="group-box">
+                        <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                        <span class="ovrflw" style="font-size: 0.7rem; color: 4a4a4a; opacity: 50%;">John Smith,
+                            Lisandro Matos</span>
+                    </div>
+                    <img src="addpack.svg" alt="img!">
+                </div>
+                <div class="recommended-group">
+                    <img src="group_icon_xl.svg" alt="img!">
+                    <div class="group-box">
+                        <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                        <span class="ovrflw" style="font-size: 0.7rem; color: 4a4a4a; opacity: 50%;">John Smith,
+                            Lisandro Matos</span>
+                    </div>
+                    <img src="addpack.svg" alt="img!">
+                </div>
+            </div>
+
+            <div class="table-container-main">
+                <div class="table-container-top">
+                    <div class="table-name">
+                        <p class="headings">ALL GROUPS</p>
+                    </div>
+                    <div class="table-search">
+                        <i class='bx bx-search'></i>
+                        <input type="text" placeholder="Find a group" />
+                        <button type="submit"> + New Group</button>
+                    </div>
+                </div>
+
+                <div class="group-table">
+                    <table class="group-details">
+                        <thead>
+                            <tr>
+                                <th><input class="chkbx" type="checkbox"></th>
+                                <th class="gname" style="width: auto;">GROUP NAME</th>
+                                <th class="gowner" style="width: auto;">GROUP OWNER</th>
+                                <th class="gdate" style="width: auto;">CREATED ON</th>
+                                <th style="text-align: center;">ACTIONS</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">ABC Security Groups</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">ABC Security Groups</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">ABC Security Groups</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">ABC Security Groups</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="chkbx" type="checkbox"></td>
+                                <td class="gname"><img src="group_icon_big.svg" alt="no image">
+                                    <span class="ovrflw">1HRCare Talent Scout Sr.Managers</span>
+                                </td>
+                                <td class="gowner"><img src="person.svg" alt="no image">
+                                    <span class="ovrflw">John Smith</span>
+                                </td>
+                                <td class="gdate">08/13/2021</td>
+                                <td style="text-align: center;">
+                                    <button type="submit"> + Join</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="footer">
+                    <span>
+                        Showing 10-20 | GoTo <input> | 
+                        <img style="margin-left:4px;" src="prev.svg" alt="no image"> 
+                        <strong style="margin:0px 4px;">1</strong> 2 3 .. 10
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Assignment 1</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+
+<!--Main body--> 
+<body>
+  <!--Top bar or header--> 
+  <header>
+    <div class="header_left">
+      <img src="images/cloud.png" alt="err!">                
+      <p class="cloud_logo" ><strong>CLOUD</strong></p>
+      <p>&nbsp;</p>
+      <p style="font-weight: bold; color: #3e3e3e;;"> ACCESS</p>
+  </div>
+  <div class="header_right">
+      <a href="#"><img src="images/bell.png" alt="err!"></a>
+      <div class="navbarR_1">
+          <a href="#"><p class="name">John Smith</p></a>
+          <a href="#"><p class="company">T-MOBILE USA</p></a>
+      </div>
+      <a href="#"><img src="images/pfp.jpg" alt="img!"></a>
+  </div>
+  </header>
+  
+  <!--The section below the header with the side part and the table--> 
+  <section>
+
+    <!--The side part, with hover responses--> 
+    <aside style="max-width: 18%; float: left;">
+      <div class="side-top">
+        <span><strong> YOUR GROUPS/ PACKS</strong></span>
+        <span classs= "side-text" style="color: #b8b8b8; font-weight: 300; padding-top: 10px; padding-bottom: 10px;">You don't have access to anything yet</span>
+      </div>
+
+      <!--This is for that faint separation line-->
+      <div class="Line-11"></div>
+
+      <!--List of the requests-->
+      <div class="side-list">
+        <strong>YOUR REQUESTS</strong>
+        <div class="requests">
+          <div class="request">
+            <span class="request-type">Pending</span>
+            <span class="request-count">6</span>
+          </div>
+          <div class="request">
+            <span class="request-type">Approved</span>
+            <span class="request-count">0</span>
+          </div>
+          <div class="request">
+            <span class="request-type">Rejected</span>
+            <span class="request-count">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="Line-11"></div>
+
+      <div class="side-approvals">
+        <span style="color: #ea168b; font-weight: 550;">YOUR APPROVALS</span>
+        <span classs= "side-text" style="color: #b8b8b8; font-weight: 300; padding-top: 10px; padding-bottom: 10px;">You don't have any approvals yet</span>
+      </div>
+      
+      <div class="Line-11"></div>
+
+      <div class="side-groups">
+        <div class="groups-packs">
+          <img src="images/group_icon.svg" alt="err!" style="padding-right: .7rem;height: 1.5rem;" />
+          <span class="side-type">ALL GROUPS</span>
+        </div>
+
+        <p style="height: 5px;"></p>
+
+        <div class="groups-packs">
+          <img src="images/icon_pack.svg" alt="err!" style="padding-right: .7rem;height: 1.5rem;" />
+          <span class="side-type">ALL PACKS</span>
+        </div>
+      </div>
+    </aside>
+
+    <!--The section with the important content starts-->
+    <div class="main-content" style="overflow: hidden;">
+      <strong>ALL GROUP:</strong>
+
+      <hr style="margin: 20px 0; border: solid 1px #cccccc;; background-color: white;">
+
+        <!--The bar with little boxes for recommendation-->
+        <div class="recommended-bar">
+          <strong class="recommended-resize">RECOMMENDED GROUPS</strong>
+          <span style="float: right;">
+            <img src="images/prev.svg" alt="err!">
+            <img src="images/next.svg" alt="err!">
+          </span>
+        </div>
+
+        <!--The little recommendation boxes-->
+        <div class="recommended-list">
+          <div class="recommended-group">
+            <img class = "groupimage" src="Images/group_icon_big.svg" alt="err!"/>
+            <div class="recommended-group-data">
+              <span class="group-name" title="ABC Security Groups and Ltds">ABC Security Groups</span>
+              <span class="owner-name">John Smith</span>
+            </div>
+            <img class = "plus-icon" src="Images/addpack.svg" alt="err!"/>
+          </div>
+
+          <div class="recommended-group">
+            <img class = "groupimage" src="Images/group_icon_big.svg" alt="err!"/>
+            <div class="recommended-group-data">
+              <span class="group-name" title="ABC Security Groups and Ltds">1HRCare Talent Scout Sr.Managers</span>
+              <span class="owner-name">John Smith,Lisandro Matos</span>
+            </div>
+            <img class = "plus-icon" src="Images/addpack.svg" alt="err!"/>
+          </div>
+
+          <div class="recommended-group">
+            <img class = "groupimage" src="Images/group_icon_big.svg" alt="err!"/>
+            <div class="recommended-group-data">
+              <span class="group-name" title="ABC Security Groups and Ltds">ABC Security Groups</span>
+              <span class="owner-name">John Smith, Jenny Chioke</span>
+            </div>
+            <img class = "plus-icon" src="Images/addpack.svg" alt="err!"/>
+          </div>
+
+          <div class="recommended-group">
+            <img class = "groupimage" src="Images/group_icon_big.svg" alt="err!"/>
+            <div class="recommended-group-data">
+              <span class="group-name" title="ABC Security Groups and Ltds">1HRCare Talent Scout Sr.Managers</span>
+              <span class="owner-name">John Smith,Lisandro Matos</span>
+            </div>
+            <img class = "plus-icon" src="Images/addpack.svg" alt="err!"/>
+          </div>
+
+          <div class="recommended-group">
+            <img class = "groupimage" src="Images/group_icon_big.svg" alt="err!"/>
+            <div class="recommended-group-data">
+              <span class="group-name" title="ABC Security Groups and Ltds">ABC Security Groups</span>
+              <span class="owner-name">John Smith</span>
+            </div>
+            <img class = "plus-icon" src="Images/addpack.svg" alt="err!"/>
+          </div>
+
+          <div class="recommended-group">
+            <img class = "groupimage" src="Images/group_icon_big.svg" alt="err!"/>
+            <div class="recommended-group-data">
+              <span class="group-name" title="ABC Security Groups and Ltds">1HRCare Talent Scout Sr.Managers</span>
+              <span class="owner-name">John Smith,Lisandro Matos</span>
+            </div>
+            <img class = "plus-icon" src="Images/addpack.svg" alt="err!"/>
+          </div>
+
+          <div class="recommended-group">
+            <img class = "groupimage" src="Images/group_icon_big.svg" alt="err!"/>
+            <div class="recommended-group-data">
+              <span class="group-name" title="ABC Security Groups and Ltds">1HRCare Talent Scout Sr.Managers</span>
+              <span class="owner-name">John Smith,Lisandro Matos</span>
+            </div>
+            <img class = "plus-icon" src="Images/addpack.svg" alt="err!"/>
+          </div>
+
+          <div class="recommended-group">
+            <img class = "groupimage" src="Images/group_icon_big.svg" alt="err!"/>
+            <div class="recommended-group-data">
+              <span class="group-name" title="ABC Security Groups and Ltds">1HRCare Talent Scout Sr.Managers</span>
+              <span class="owner-name">John Smith,Lisandro Matos</span>
+            </div>
+            <img class = "plus-icon" src="Images/addpack.svg" alt="err!"/>
+          </div>
+          
+        </div>
+
+        <!--finally, the part where the scrollable table resides-->
+        <div class="table-container-parent">
+          <div class="table-top">
+            <p class="title-all-groups">ALL GROUPS</p>
+            <div class="table-top-right">
+              <i class="bx bx-search"></i>
+            <input type="text" class="search-group" placeholder="Find a group" style="font-family: Arial, FontAwesome"/>
+            <button class="new-group"><span>+ New Group</span></button>
+            </div>
+          </div>
+
+          <!--start of table. Fixed part-->
+          <table>
+            <thead>
+              <tr>
+                <th class="table-header-row">
+                  <input type="checkbox" class="checkbox"/>
+                  <span>GROUP NAME</span>
+                </th>
+                <th class="group-owner">GROUP OWNER</th>
+                <th class="group-create-date">CREATED ON</th>
+                <th class="group-actions">ACTIONS</th>
+              </tr>
+            </thead>
+
+            <!--body of table-->
+            <tbody>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText" tyle="width:80px;">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-body-row">
+                  <input type="checkbox" class="checkbox" />
+                  <span class="imageText">
+                    <img src="images/group_icon.svg" alt="err!" class="group-icon"/>
+                    <a href="#" class="group-link">ABC Security Groups</a>
+                  </span>
+                </td>
+                <td class="group-owner">
+                  <span class="imageText">
+                    <img src="images/person.svg" alt="" class="person-icon" />
+                    <a href="#" style="padding:5px;">John Smith</a>
+                  </span>
+                </td>
+                <td class="group-create-date">08/13/2021</td>
+                <td class="group-actions">
+                  <button class="joinBtn"><span>+ Join</span></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!--footer-->
+          <div class="footer">
+            <span style="padding-right: 0.5rem; border-right: 1px solid #979797;"> Showing 10-20 </span>
+            <label for="goto" style="padding: 0 0.5rem;">Goto</label>
+            <input type="text" style="border: solid 1px #979797; background-color: #fff; width: 1.5rem;" />
+            <div style = "margin: 0 0.5rem; border-left: 1px solid #979797;">
+              <button style="margin-left: 0.5rem;"><span></span></button>
+              <span style="padding: 0 0.5rem;">1 2 3 4...10</span>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+  </section>
+</body>
+
+
+</html>
